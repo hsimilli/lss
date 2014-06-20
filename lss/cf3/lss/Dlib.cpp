@@ -14,9 +14,9 @@ namespace lss {
 
 
 template<> std::string Dlib< double >::type_name() { return "Dlib_LongPrecisionReal"; }
-template<> std::string Dlib< float  >::type_name() { return "Dlib_ShortPrecisionReal"; }
+//template<> std::string Dlib< float  >::type_name() { return "Dlib_ShortPrecisionReal"; }
 common::ComponentBuilder< Dlib< double >, common::Component, LibLSS > Builder_Dlib_LongPrecisionReal;
-common::ComponentBuilder< Dlib< float  >, common::Component, LibLSS > Builder_Dlib_ShortPrecisionReal;
+//common::ComponentBuilder< Dlib< float  >, common::Component, LibLSS > Builder_Dlib_ShortPrecisionReal;
 
 
 }  // namespace lss

@@ -5,7 +5,7 @@ set(lss_extra_includes)
 set(lss_extra_libs coolfluid_common)
 
 
-list(APPEND lss_extra_libs ${LAPACK_LIBRARIES} )
+list(APPEND lss_extra_libs ${LAPACK_LIBRARIES} ${BLAS_LIBRARIES} )
 list(APPEND lss_files
   GaussianElimination.cpp
   GaussianElimination.hpp
